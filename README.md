@@ -12,4 +12,4 @@ Este repositório contém um projeto desenvolvido enquanto pessoa estudante da T
 Working in progress
 
 ### Link para acessar o projeto:
-<a href="https://carolinainglethe.github.io/project-pixels-art/" alt="project" target="_blank">carolinainglethe.github.io/project-pixels-art</a>
+<a href="https://carolinainglethe.github.io/project-pixels-art/" alt="project" target="_blank">project-pixels-art</a>
