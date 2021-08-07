@@ -35,7 +35,6 @@ colorsPalet.forEach((color) => {
 // Colorir Pixels
 function paintPixels(event) {
   const colorSelected = document.querySelector('.selected');
-
   event.target.style.backgroundColor = window.getComputedStyle(colorSelected).getPropertyValue('background-color')
 }
 
@@ -43,3 +42,14 @@ const pixel = document.querySelectorAll('.pixel');
 pixel.forEach((pix) => {
     pix.addEventListener('click', paintPixels);
 })
+
+// Botao para limpar pixels
+function clearBoard() {
+  const pixels = document.querySelectorAll('.pixel')
+  pixels.forEach((pix) => {
+      pix.style.backgroundColor = 'white'
+  })
+}
+
+const buttonClear = document.querySelector('#clear-board');
+buttonClear.addEventListener('click', clearBoard);

@@ -53,3 +53,10 @@
     text-align: center;
   }
 }
+
+#clear-board {
+    padding: 6px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
