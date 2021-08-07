@@ -1,4 +1,5 @@
 const pixelBoard = document.querySelector('#pixel-board');
+const colorsPalet = document.querySelectorAll('.color');
 
 function createPixels() {
   for (let index = 0; index < 5; index += 1) {
@@ -14,4 +15,15 @@ function createPixels() {
       }
   }
 }
-createPixels()
+createPixels();
+
+ function selectColor(event) {
+    colorsPalet.forEach((color) => {
+        color.className = 'color'
+    })
+    event.target.className = 'color selected'
+}
+
+colorsPalet.forEach((color) => {
+  color.addEventListener('click', selectColor);
+})
