@@ -1,5 +1,7 @@
-const pixelBoard = document.querySelector('#pixel-board');
-const colorsPalet = document.querySelectorAll('.color');
+window.onload = () => {
+  
+  const pixelBoard = document.querySelector('#pixel-board');
+  const colorsPalet = document.querySelectorAll('.color');
 
 // Criar quadro de pixels
 function createPixels() {
@@ -26,7 +28,6 @@ createPixels();
     })
     event.target.className = 'color selected'
 }
-
 colorsPalet.forEach((color) => {
   color.addEventListener('click', selectColor);
 })
@@ -53,3 +54,5 @@ function clearBoard() {
 
 const buttonClear = document.querySelector('#clear-board');
 buttonClear.addEventListener('click', clearBoard);
+ 
+}
