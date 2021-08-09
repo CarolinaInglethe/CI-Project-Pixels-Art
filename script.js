@@ -55,4 +55,23 @@ function clearBoard() {
 const buttonClear = document.querySelector('#clear-board');
 buttonClear.addEventListener('click', clearBoard);
  
+
+// Input e botao de definir Tamanho de board de pixels
+function removePixels() {
+  const pixels = document.querySelectorAll('.pixel');
+  pixels.forEach((pixel) => pixel.remove());
+}
+
+function sizePixels() {
+  // removePixels()
+  const inputSize = document.querySelector('#board-size').value
+
+  pixelBoard.style.height = `${inputSize * 2}px`;
+  pixelBoard.style.width = `${inputSize * 2}px`
+  pixelBoard.style.display = 'flex'
+  pixelBoard.style.flexFlow = 'row wrap'
+ }
+const buttonBoardSize = document.querySelector('#generate-board');
+buttonBoardSize.addEventListener('click', sizePixels)
+
 }
