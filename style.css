@@ -2,17 +2,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(46, 139, 86, 0.301);
+  background-color: #EFE3D0;
   text-align: center;
+}
+
+header {
+  background-color: #2D2424;
+  color: #f1f1f0;
 }
     
 #color-palette {
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.226);
+  background-color: #2d24244b;
   padding: 5px;
   margin: auto;
   margin-top: 50px ;
+  border-radius: 4px;
 }
     
 .color {
@@ -39,8 +45,7 @@ body {
     
 #pixel-board {
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.198);
-  box-shadow: rgba(0, 0, 0, 0.198);
+  background-color: rgba(0, 0, 0, 0.068);
   width: 450px;
 }
     
@@ -57,4 +62,11 @@ body {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #f3ede2;
+  background-color: rgba(53, 43, 43, 0.472);
+  border-radius: 4px;
+}
+
+#clear-board:hover {
+  background-color: rgba(53, 43, 43, 0.719);
 }
