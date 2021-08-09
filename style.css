@@ -70,3 +70,19 @@ header {
 #clear-board:hover {
   background-color: rgba(53, 43, 43, 0.719);
 }
+
+#submits-container {
+  margin: 20px 5px;
+}
+
+#board-size {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#generate-board {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 4px;
+}

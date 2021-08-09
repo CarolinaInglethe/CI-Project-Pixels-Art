@@ -12,6 +12,7 @@
         <h1 id="title">Paleta de Cores</h1>
     </header>
 
+    <!-- Paleta de Cores -->
     <div id="color-palette">
         <div class="color selected" id="color-black"></div>
         <div class="color" id="color-green"></div>
@@ -19,10 +20,19 @@
         <div class="color" id="color-yellow"></div>
     </div>
 
-    <button id="clear-board">Limpar</button>
+    <!-- Botões -->
+    <div id="submits-container">
+        <label for="">
+            <input type="number" id="board-size" min="5" max="50">
+            <button type="submit" id="generate-board">Size Pixels</button>
+        </label>
+    </div>
     
-    <table id="pixel-board">
+    <!-- Botao de Limpar cor de pixels -->
+    <button id="clear-board">Limpar</button>
 
+    <!-- Quadro de pixels -->
+    <table id="pixel-board">
     </table>
 
     <script src="script.js"></script>
