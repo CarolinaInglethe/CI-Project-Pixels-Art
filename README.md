@@ -1,8 +1,7 @@
 # Boas vindas ao repositório do projeto Arte com Pixels!
 Este repositório contém um projeto desenvolvido enquanto pessoa estudante da Trybe
 
-### Link para acessar o projeto: <a href=" https://carolinainglethe.github.io/CI-Project-Pixels-Art/" alt="project" target="_blank">project-pixels-art</a>
-
+### Link para acessar o projeto: https://carolinainglethe.github.io/CI-Project-Pixels-Art/
 
 ## Habilidades
 - Manipular o DOM
